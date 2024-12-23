@@ -1,0 +1,52 @@
+/* NavBar.css */
+
+.navbar {
+    background-color: #d1395a;
+    color: #fff;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 35px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 20px; /* Adds spacing between items */
+    scale: 1;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    scale: 1;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar li a{
+    font-size: 18px;
+}
+
+/* .navbar a:hover {
+    color: black; 
+    transform: scale(1.1); 
+} */
+
+.navbar li a:hover{
+    color: black; /* Green color on hover */
+    transform: scale(1.1); /* Slightly enlarges the text on hover */
+}

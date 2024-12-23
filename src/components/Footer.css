@@ -1,0 +1,40 @@
+/* Footer.css */
+
+.footer {
+    background: linear-gradient(to right, #000428, #fc1d4e);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-links li {
+    margin: 0 15px;
+    padding: 12px 15px;
+    background: #fff;
+    border-radius: 100%;
+    font-size: 29px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: linear-gradient(#000428, #fc1d4e);
+    transition: color 0.3s ease;
+}
+
